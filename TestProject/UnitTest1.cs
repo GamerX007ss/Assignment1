@@ -61,7 +61,41 @@ namespace TestProject
             var product = new Product(100, "Test Product", 50, 5);
             Assert.That(product.StockAmount, Is.EqualTo(5));
         }
+        [Test]
+        public void Constructor_MaximumStockAmount_ShouldInitializeCorrectly()
+        {
+            var product = new Product(100, "Test Product", 100, 500000);
+            Assert.That(product.StockAmount, Is.EqualTo(500000));
+        }
+        [Test]
+        public void IncreaseStock_ValidAmount_ShouldIncreaseStock()
+        {
+            var product = new Product(100, "Test Product", 100, 50);
+            product.IncreaseStock(10);
+            Assert.That(product.StockAmount, Is.EqualTo(60));
+        }
 
+        [Test]
+        public void IncreaseStock_ZeroAmount_ShouldNotChangeStock()
+        {
+            var product = new Product(100, "Test Product", 100, 50);
+            product.IncreaseStock(0);
+            Assert.That(product.StockAmount, Is.EqualTo(50));
+        }
+
+        [Test]
+        public void IncreaseStock_NegativeAmount_ShouldThrowException()
+        {
+            var product = new Product(100, "Test Product", 100, 50);
+            Assert.Throws<ArgumentException>(() => product.IncreaseStock(-10));
+        }
+        [Test]
+        public void DecreaseStock_ValidAmount_ShouldDecreaseStock()
+        {
+            var product = new Product(100, "Test Product", 100, 50);
+            product.DecreaseStock(10);
+            Assert.That(product.StockAmount, Is.EqualTo(40));
+        }
 
     }
 }

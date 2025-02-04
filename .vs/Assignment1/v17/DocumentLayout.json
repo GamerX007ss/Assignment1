@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\",
+  "WorkspaceRootPath": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01807AF8-DE2A-4F7C-AF96-B1E0FAE885AC}|TestProject\\TestProject.csproj|c:\\users\\pranav\\source\\repos\\assignment1\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01807AF8-DE2A-4F7C-AF96-B1E0FAE885AC}|TestProject\\TestProject.csproj|c:\\users\\doniy\\onedrive\\documents\\assignment1\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01807AF8-DE2A-4F7C-AF96-B1E0FAE885AC}|TestProject\\TestProject.csproj|solutionrelative:testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC48A876-1276-413C-AD46-342AB8D8C56B}|Assignment1\\Assignment1.csproj|c:\\users\\pranav\\source\\repos\\assignment1\\assignment1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC48A876-1276-413C-AD46-342AB8D8C56B}|Assignment1\\Assignment1.csproj|c:\\users\\doniy\\onedrive\\documents\\assignment1\\assignment1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC48A876-1276-413C-AD46-342AB8D8C56B}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC48A876-1276-413C-AD46-342AB8D8C56B}|Assignment1\\Assignment1.csproj|c:\\users\\pranav\\source\\repos\\assignment1\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC48A876-1276-413C-AD46-342AB8D8C56B}|Assignment1\\Assignment1.csproj|c:\\users\\doniy\\onedrive\\documents\\assignment1\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC48A876-1276-413C-AD46-342AB8D8C56B}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,17 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\TestProject\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\TestProject\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\TestProject\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\TestProject\\UnitTest1.cs",
               "RelativeToolTip": "TestProject\\UnitTest1.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwD0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T07:41:14.03Z",
               "EditorCaption": ""
@@ -41,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\Assignment1\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\Assignment1\\Product.cs",
               "RelativeDocumentMoniker": "Assignment1\\Product.cs",
-              "ToolTip": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\Assignment1\\Product.cs",
+              "ToolTip": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\Assignment1\\Product.cs",
               "RelativeToolTip": "Assignment1\\Product.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\Assignment1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\Assignment1\\Program.cs",
               "RelativeDocumentMoniker": "Assignment1\\Program.cs",
-              "ToolTip": "C:\\Users\\Pranav\\source\\repos\\Assignment1\\Assignment1\\Program.cs",
+              "ToolTip": "C:\\Users\\doniy\\OneDrive\\Documents\\Assignment1\\Assignment1\\Program.cs",
               "RelativeToolTip": "Assignment1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
