@@ -36,5 +36,32 @@ namespace TestProject
             var product = new Product(100, "Test Product", 100, 50);
             Assert.That(product.ItemPrice, Is.EqualTo(100));
         }
+        [Test]
+        public void PriceMinimum()
+        {
+            var product = new Product(100, "Test Product", 5, 50);
+            Assert.That(product.ItemPrice, Is.EqualTo(5));
+        }
+        [Test]
+        public void PriceMaximum()
+        {
+            var product = new Product(100, "Test Product", 5000, 50);
+            Assert.That(product.ItemPrice, Is.EqualTo(5000));
+        }
+        //Stock Amount
+        [Test]
+        public void StockIntialization()
+        {
+            var product = new Product(100, "Test Product", 50, 150);
+            Assert.That(product.StockAmount, Is.EqualTo(150));
+        }
+        [Test]
+        public void StockMinimum()
+        {
+            var product = new Product(100, "Test Product", 50, 5);
+            Assert.That(product.StockAmount, Is.EqualTo(5));
+        }
+
+
     }
 }
