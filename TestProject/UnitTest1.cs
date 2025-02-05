@@ -28,7 +28,6 @@ namespace TestProject
             Assert.That(product.ProdId, Is.EqualTo(50000));
 
         }
-
         //Item Price
         [Test]
         public void PriceIntialization()
@@ -97,5 +96,27 @@ namespace TestProject
             Assert.That(product.StockAmount, Is.EqualTo(40));
         }
 
+        //Product Name
+        [Test]
+        public void ProdNameIntialization()
+        {
+            var product = new Product(100, "Test Product", 100, 50);
+            Assert.That(product.ProdName, Is.EqualTo("Test Product"));
+        }
+        [Test]
+        public void ProdNameEmpty_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentException>(() => new Product(100, "", 100, 50));
+        }
+        [Test]
+        public void ProdNameWhiteSpace_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentException>(() => new Product(100, " ", 100, 50));
+        }
+        [Test]
+        public void ProdNameNull_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentException>(() => new Product(100, null, 100, 50));
+        }
     }
 }
