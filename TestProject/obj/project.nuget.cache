@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "snEAAtJE4TA=",
+  "dgSpecHash": "Yck5wfsNeKk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\so_il\\Music\\example\\Assignment1\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\so_il\\Desktop\\Storage\\PROG2070\\Assignment1\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\so_il\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\so_il\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
