@@ -5,14 +5,14 @@ namespace TestProject
 {
     public class Tests
     {
-        
+
         //Product ID
         [Test]
         public void ProdIdIntializationTest()
         {
             var product = new Product(100, "Test Product", 100, 50);
             Assert.That(product.ProdId, Is.EqualTo(100));
-            
+
         }
         [Test]
         public void ProdIdMinimumTest()
@@ -74,13 +74,6 @@ namespace TestProject
             Assert.That(product.StockAmount, Is.EqualTo(60));
         }
 
-        [Test]
-        public void IncreaseStock_ZeroAmount_ShouldNotChangeStock()
-        {
-            var product = new Product(100, "Test Product", 100, 50);
-            product.IncreaseStock(0);
-            Assert.That(product.StockAmount, Is.EqualTo(50));
-        }
 
         [Test]
         public void DecreaseStock_NegativeAmount_ShouldThrowException()
@@ -94,7 +87,18 @@ namespace TestProject
             var product = new Product(100, "Test Product", 100, 50);
             product.DecreaseStock(10);
             Assert.That(product.StockAmount, Is.EqualTo(40));
+
+
         }
+        [Test]
+        public void IncreaseStock_ZeroAmount_ShouldNotChangeStock()
+        {
+            var product = new Product(100, "Test Product", 100, 50);
+            product.IncreaseStock(0);
+            Assert.That(product.StockAmount, Is.EqualTo(50));
+        }
+
+        
 
         //Product Name
         [Test]
@@ -118,5 +122,20 @@ namespace TestProject
         {
             Assert.Throws<ArgumentException>(() => new Product(100, null, 100, 50));
         }
+
+        [Test]
+        public void SetProdName_ValidName_ShouldUpdateCorrectly()
+        {
+            // Arrange
+            var product = new Product(100, "Old Product", 100, 50);
+            string newValidName = "New Product";
+
+            // Act
+            product.ProdName = newValidName;
+
+            // Assert
+            Assert.That(product.ProdName, Is.EqualTo("New Product"));
+        }
+
     }
 }

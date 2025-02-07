@@ -28,3 +28,18 @@ C:\Users\so_il\Desktop\Storage\PROG2070\Assignment1\Assignment1\obj\Debug\net8.0
 C:\Users\so_il\Desktop\Storage\PROG2070\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.pdb
 C:\Users\so_il\Desktop\Storage\PROG2070\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.genruntimeconfig.cache
 C:\Users\so_il\Desktop\Storage\PROG2070\Assignment1\Assignment1\obj\Debug\net8.0\ref\Assignment1.dll
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\bin\Debug\net8.0\Assignment1.exe
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\bin\Debug\net8.0\Assignment1.deps.json
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\bin\Debug\net8.0\Assignment1.runtimeconfig.json
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\bin\Debug\net8.0\Assignment1.dll
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\bin\Debug\net8.0\Assignment1.pdb
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.AssemblyInfoInputs.cache
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.AssemblyInfo.cs
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.sourcelink.json
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.dll
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\refint\Assignment1.dll
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.pdb
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\Assignment1.genruntimeconfig.cache
+C:\Users\manan\OneDrive - Conestoga College\Level - 3\assignment\Assignment1\Assignment1\obj\Debug\net8.0\ref\Assignment1.dll
