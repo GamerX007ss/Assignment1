@@ -83,10 +83,10 @@ namespace TestProject
         }
 
         [Test]
-        public void IncreaseStock_NegativeAmount_ShouldThrowException()
+        public void DecreaseStock_NegativeAmount_ShouldThrowException()
         {
             var product = new Product(100, "Test Product", 100, 50);
-            Assert.Throws<ArgumentException>(() => product.IncreaseStock(-10));
+            Assert.Throws<ArgumentOutOfRangeException>(() => product.IncreaseStock(-10));
         }
         [Test]
         public void DecreaseStock_ValidAmount_ShouldDecreaseStock()

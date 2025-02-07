@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "TestProject\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\so_il\\Desktop\\Storage\\PROG2070\\Assignment1\\TestProject\\UnitTest1.cs",
               "RelativeToolTip": "TestProject\\UnitTest1.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowE8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T07:41:14.03Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assignment1\\Product.cs",
               "ToolTip": "C:\\Users\\so_il\\Desktop\\Storage\\PROG2070\\Assignment1\\Assignment1\\Product.cs",
               "RelativeToolTip": "Assignment1\\Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T07:22:15.357Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Assignment1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:21:56.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:21:56.025Z"
             }
           ]
         },
